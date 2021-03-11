@@ -16,5 +16,9 @@ jobs:
           command: bundle exec jekyll build
 
       - run:
+          name: Greeting
+          command: echo Hello Brewmaster!
+    
+      - run:
           name: Print the Current Time
           command: date
